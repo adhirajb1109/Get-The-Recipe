@@ -31,8 +31,8 @@ function Forms() {
     document.getElementById("dish").value = "";
   }
   return (
-    <div className="container my-4">
-      <Form className="my-5" id="form">
+  <div className="container">
+      <Form className="my-4" id="form">
         <Form.Group>
           <Form.Label>Enter Dish Name : </Form.Label>
           <Form.Control type="text" placeholder="Enter Dish Name :" id="dish" />
